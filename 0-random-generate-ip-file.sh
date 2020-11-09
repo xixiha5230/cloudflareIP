@@ -1,5 +1,5 @@
 #!/bin/bash
-rm ip.txt
+
 echo "generating..."
 
 ip=$(( $RANDOM % 254 + 1))
